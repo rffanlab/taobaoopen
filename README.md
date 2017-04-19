@@ -8,6 +8,10 @@
 
 返回的参数是Map参数，如果你确定你使用的接口是某个接口，可以直接定义结构体。解析出来。
 
+可以新建一个map[string]map[string]string的map 然后用json.Unmarshal([]byte(str),&map)
+
+
+
 # 协议
 
 我只能笑cry，我基本上知道MIT APACHE这两个协议，不晓得区别在哪里，因此就不做限制，可以自由分发和使用，不做任何限制。
